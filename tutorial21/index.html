@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Specificity & Cascade In CSS</title>
+    <style>
+        h1{
+            color:aqua;
+
+        }
+        .yellow{
+            color:yellow;
+        }
+        .cred{
+            color:red;
+        }
+
+        .cpurple{
+            color:purple;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h1 class="yellow cred cpurple">CSS Specificity</h1>
+    </div>
 </body>
 </html>
+
+<!-- if talking about classes the color change will occur according
+to last position that we are giving for example now we have all
+css element that is class and last class is purple so it will
+work accoring cpurple class and not written classes above, if 
+red class is written in the last of stylesheet then the color
+will be taken red inspite there are many classes in the h1 -->
+
+
+<!-- Specificity: an algorithm that says which selector has higher 
+priority: 
+
+inline selector> id selector>class or attribute selector> element selector > universal selector -->
+
+
+<!-- Origin: it means sometimes useragent writes some code defualtly
+in browser -->

@@ -1,0 +1,96 @@
+.logo img {
+    width: 134px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 69vw;
+    text-align: center;
+}
+
+.btn{
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+
+.flex {
+    display: flex;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.second{
+    max-width: 77vw;
+    margin: auto;
+}
+
+.item{
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-lang{
+    font-weight: 450;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 12px;
+}
+
+.download:nth-child(2){
+    font-size: 23px;
+}
+
+.download{
+    display: flex;
+    font-family: serif;
+    align-items: center;
+    gap: 10px;
+}

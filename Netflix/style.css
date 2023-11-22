@@ -146,12 +146,18 @@ hero> :nth-child(3){
     align-items: center;
 }
 
+@media screen and (max-width:1290px){
+
+    .first{
+        flex-wrap: wrap;
+    }
+}
 
 .sec-img{
     position: relative;    
 }
 
-sec-img img{
+.sec-img img{
     width: 555px;
     position: relative;
     z-index: 10;
@@ -166,6 +172,7 @@ sec-img img{
 section.first > div{
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 section.first >div :nth-child(1){
@@ -210,6 +217,14 @@ footer{
     max-width: 60vw;
     margin: auto;
     padding: 14px;
+}
+
+@media screen and (max-width:1290px){
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 footer .questions{

@@ -1,0 +1,66 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Webkit (Safari, Chrome) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+  }
+  
+  /* Firefox */
+  /* Note: You can also use the color property to set the scrollbar color in Firefox */
+  /* For example: scrollbar-color: #333 #222; */
+  /* The first color is the thumb color, and the second color is the track color */
+  /* But as of my knowledge cutoff in January 2022, this may not work in all Firefox versions */
+  /* You may need to use browser-specific prefixes for newer versions */
+  /* For example: scrollbar-color: #333 #222;  (Webkit, Blink, and future versions) */
+  /*              scrollbar-track-color: #222; (Firefox only) */
+  /* This may change in future browser updates, so check the latest documentation */
+  
+  /* Standard */
+  /* This is used for Microsoft Edge and Internet Explorer */
+  /* Note: You can also use the color property for the scrollbar color in Edge */
+  /* For example: scrollbar-color: #333 #222; */
+  /* Similar to Firefox, the first color is the thumb color, and the second color is the track color */
+  
+  body {
+    scrollbar-color: #333 #222;
+  }
+  
